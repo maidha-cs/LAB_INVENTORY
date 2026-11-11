@@ -1,7 +1,7 @@
 CREATE TABLE computer (
     computer_id       NUMBER PRIMARY KEY,
     computer_name     VARCHAR2(50) NOT NULL,
-    ip_address        VARCHAR2(50) UNIQUE NOT NULL, -- IP address hamesha VARCHAR2 hota hai kyunki dots (.) hotay hain
+    ip_address        VARCHAR2(50) UNIQUE NOT NULL, 
     serial_number     VARCHAR2(50) UNIQUE NOT NULL,
     installation_date DATE DEFAULT SYSDATE,
     location_id       NUMBER REFERENCES location (location_id),
