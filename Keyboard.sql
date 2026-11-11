@@ -3,4 +3,5 @@ CREATE TABLE keyboard (
     brand          VARCHAR2(100),
     connector_type VARCHAR2(30),
     status_id      NUMBER REFERENCES status (status_id)
+    ALTER TABLE kEYBOARD ADD computer_id NUMBER REFERENCES computer(computer_id);
 );
