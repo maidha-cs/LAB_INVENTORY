@@ -6,4 +6,3 @@ CREATE TABLE status (
 INSERT ALL 
     INTO status (status_id, status_name) VALUES (1, 'Working')
     INTO status (status_id, status_name) VALUES (2, 'Under Repair')
-SELECT * FROM dual;
