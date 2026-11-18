@@ -24,3 +24,8 @@ FULL OUTER JOIN keyboard
     ON computer.computer_id = keyboard.computer_id
 FULL OUTER JOIN mouse 
     ON computer.computer_id = mouse.computer_id;
+
+
+-- view karnaa kaa saraa  table aik sth dekhaein gaa
+    SELECT *
+ FROM vw_lab_computer_overview;
