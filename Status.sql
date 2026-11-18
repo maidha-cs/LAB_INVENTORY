@@ -3,5 +3,7 @@ CREATE TABLE status (
     status_name VARCHAR2(30) NOT NULL UNIQUE,
     description VARCHAR2(100)
 );
-INSERT INTO status (status_id, status_name) VALUES (1, 'Working');
-INSERT INTO status (status_id, status_name) VALUES (2, 'Under Repair');
+INSERT ALL 
+    INTO status (status_id, status_name) VALUES (1, 'Working')
+    INTO status (status_id, status_name) VALUES (2, 'Under Repair')
+SELECT * FROM dual;
