@@ -5,3 +5,4 @@ CREATE TABLE mouse (
     status_id      NUMBER REFERENCES status (status_id)
     ALTER TABLE MOUSE ADD computer_id NUMBER REFERENCES computer(computer_id);
 );
+ALTER TABLE mouse ADD computer_id NUMBER REFERENCES computer (computer_id);
